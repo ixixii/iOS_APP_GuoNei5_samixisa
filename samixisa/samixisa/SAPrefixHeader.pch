@@ -1,0 +1,21 @@
+//
+//  SAPrefixHeader.pch
+//  samixisa
+//
+//  Created by beyond on 2020/04/04.
+//  Copyright © 2020 samixisa. All rights reserved.
+//
+
+#ifndef SAPrefixHeader_pch
+#define SAPrefixHeader_pch
+
+#define sa_kColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define sa_yellowColor sa_kColor(246, 159, 55)
+#define sa_ScreenBounds [UIScreen mainScreen].bounds
+#define sa_ScreenWidth sa_ScreenBounds.size.width
+#define sa_ScreenHeight sa_ScreenBounds.size.height
+
+#import "SAMessageTool.h"
+
+#endif /* SAPrefixHeader_pch */
